@@ -1,0 +1,30 @@
+.employee-summary {
+
+  cursor: pointer;
+
+  .employee-image {
+    .square-container {
+      width: 100%;
+      padding-top: 100%;
+      position: relative;
+      .square-content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-size: 100%;
+        background-position: center;
+      }
+    }
+  }
+
+  .employee-name {
+    text-align: center;
+  }
+
+  .employee-role {
+    text-align: center;
+  }
+}
+
